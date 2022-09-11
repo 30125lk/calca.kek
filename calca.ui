@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>371</width>
+    <height>617</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 170, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>371</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 85, 127);
+
+font: 34pt &quot;MS Shell Dlg 2&quot;;
+
+color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+    <property name="margin">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>260</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button6">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>260</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button7">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>260</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button8">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>260</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>x</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button9">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>340</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button10">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>340</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button11">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>340</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button12">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>340</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button13">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>420</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button14">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>420</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button15">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>420</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button16">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>420</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button17">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>500</y>
+      <width>141</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 30pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 255);
+border-radius: 15px;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button18">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>500</y>
+      <width>141</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button19">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>500</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button20">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>500</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>=</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button4">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>160</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>÷</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>160</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>⌫</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>160</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>√</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button1">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>75</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 255);
+	border-radius: 15px;}
+
+QPushButton:hover {
+	background-color: rgb(5, 255, 255);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}
+QPushButton:pressed {
+	background-color: rgb(0, 0, 127);
+	font: 30pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 255);
+	border-radius: 15px;}</string>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>371</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
